@@ -1,0 +1,8 @@
+.chatlist {
+  padding: 40px;
+}
+
+.chatlist > a {
+  text-decoration: none;
+  color: black;
+}

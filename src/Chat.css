@@ -1,0 +1,23 @@
+.chat {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  height: 70px;
+  border-bottom: 1px solid #fafafa;
+}
+
+.chat__content {
+  margin-left: 16px;
+  flex: 1;
+}
+
+.chat__message {
+  color: gray;
+}
+
+.chat__timestamp {
+  font-size: .85em;
+  opacity: .2;
+}
