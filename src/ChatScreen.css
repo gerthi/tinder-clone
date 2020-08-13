@@ -6,27 +6,48 @@
 .chatTitle {
   align-self: center;
   padding: 10px;
+  color: gray;
 }
 
-.message {
-  margin: 20px 40px;
-  padding: 20px;
-  max-width: 30vw;
-}
-
-.message__stranger {
+.chatScreen__message {
   display: flex;
   align-items: center;
+  padding: 20px;
 }
 
-.message__stranger {
+.chatScreen__text {
+  margin-left: 10px;
   background-color: mediumspringgreen;
-  border-radius: 20px 20px 20px 0px;
+  padding: 15px;
+  border-radius: 20px;
 }
 
-.message__user {
-  align-self: flex-end;
-  text-align: right;
+.chatScreen__textUser {
+  margin-left: auto;
   background: aliceblue;
-  border-radius: 20px 20px 0px 20px;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.chatScreen__input {
+  display: flex;
+  padding: 5px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid lightgray;
+}
+
+.chatScreen__inputField {
+  flex: 1;
+  padding: 10px;
+  border: none;
+}
+
+.chatScreen__inputButton {
+  border: none;
+  margin-right: 20px;
+  background-color: white;
+  font-weight: bolder;
+  color: red;
 }
